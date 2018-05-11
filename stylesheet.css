@@ -16,6 +16,7 @@ li {
 li a {
     display: block;
     color: white;
+	font-family: "Bangers";
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,19 +27,8 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: red;
+    background-color: Red;
 }
-
-.button {
-    background-color: red;
-    color: black;
-	font-family: Bangers;
-	text-align: center;
-	padding: 15px 32px;
-	margin: 4px 2px;
-	display: inline-block;
-}
-
 .grid {
   display: grid;
   border: 2px black solid;
@@ -46,6 +36,8 @@ li a:hover:not(.active) {
 }
 .box {
   color: black;
+  font-family: "Bangers";
+  text-align: center;
   border-radius: 5px;
   border: 2px black solid;
 }
@@ -65,14 +57,19 @@ li a:hover:not(.active) {
 	grid-column-end: span 6;
 }
 
-h1 {
-  text-align: center;
-  font-size: ;
-  font-family: Bangers;
+.colspan2-1 {
+	grid-column-start: 1;
+	grid-column-end: span 2;
 }
 
-img src {
-  text-align: center;
+.colspan2-3 {
+	grid-column-start: 3;
+	grid-column-end: span 2;
+}
+
+.colspan2-5 {
+	grid-column-start: 5;
+	grid-column-end: span 2;
 }
 
 @font-face {
