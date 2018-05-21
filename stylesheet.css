@@ -1,4 +1,6 @@
 body {
+	backgroud:
+	cursor:
 }
 
 ul {
@@ -27,19 +29,19 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: Red;
+    background-color: #B22222;
 }
 .grid {
-  display: grid;
-  border: 2px black solid;
-  grid-template-columns: repeat(6, 1fr)
+	display: grid;
+	border: 2px black solid;
+	grid-template-columns: repeat(6, 1fr)
 }
 .box {
-  color: black;
-  font-family: "Bangers";
-  text-align: center;
-  border-radius: 5px;
-  border: 2px black solid;
+	color: black;
+	font-family: "Bangers";
+    text-align: center;
+    border-radius: 5px;
+    border: 2px black solid;
 }
 
 .colspan6{
