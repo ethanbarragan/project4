@@ -18,6 +18,7 @@ li a {
     display: block;
     color: white;
 	font-family: "Bangers";
+	font-size: 18px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -38,7 +39,7 @@ li a:hover:not(.active) {
     text-align: center;
     display: inline-block;
 	font-family: "Bangers";
-    font-size: 16px;
+    font-size: 24px;
     margin: 4px 2px;
 }
 
@@ -84,7 +85,17 @@ li a:hover:not(.active) {
 	grid-column-start: 5;
 	grid-column-end: span 2;
 }
+h1 {
+	font-size: 48px;
+}
 
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 26px;
+}
 @font-face {
 	font-family: "Bangers";
 	src: url("Bangers-Regular.ttf");
